@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable array-callback-return */
 import React, { useState } from "react";
 import { sreelekshmi } from "../data/sreelakshmi";
