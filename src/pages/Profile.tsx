@@ -23,8 +23,12 @@ function Profile() {
     }
   }, []);
 
+  const [subActive, setsubActive] = useState(0);
+  const [mainActive, setmainActive] = useState(0);
+
   return (
     <div className="w-full h-screen  flex">
+      {/* Main Menu  */}
       <div className="w-[500px] bg-gradient-to-b from-[#1F7C7C] to-[#0D4444] h-screen px-10 flex flex-col justify-between">
         <div>
           <div className="relative h-[250px]">
@@ -46,8 +50,12 @@ function Profile() {
                   key={index}
                   onClick={() => {
                     setsubMenu(obj.subMenu);
+                    setmainActive(index);
+                    setsubActive(0);
                   }}
-                  className="py-4 text-base text-[#AFDAC8] cursor-pointer flex items-center "
+                  className={`py-4 text-base  cursor-pointer flex items-center ${
+                    mainActive === index ? "text-white" : "text-[#AFDAC8]"
+                  }`}
                 >
                   <img src={icons[index]} alt="" className="w-6 h-6 mr-5" />
                   <div>{obj.name}</div>
@@ -71,6 +79,7 @@ function Profile() {
           </div>
         </div>
       </div>
+      {/* Sub Menu  */}
       <div className="w-[500px] bg-gradient-to-b from-[#55B2C0] to-[#009DB6] h-screen px-10 overflow-scroll">
         <div className="h-[250px] flex justify-center items-center flex-col ">
           <img
@@ -82,13 +91,21 @@ function Profile() {
         {subMenu?.map((obj: any, index: any) => {
           return (
             <a key={index} href={`#${obj.content.id}`}>
-              <div className="py-4 text-base text-white cursor-pointer">
+              <div
+                className={`py-4 text-base cursor-pointer  ${
+                  subActive === index ? "text-[#115050]" : "text-white"
+                } `}
+                onClick={() => {
+                  setsubActive(index);
+                }}
+              >
                 {obj.name}
               </div>
             </a>
           );
         })}
       </div>
+      {/* content  */}
       <div className="w-full bg-[#DEEAEF] h-screen p-10 overflow-scroll">
         {subMenu?.map((obj: any, index: any) => {
           return (
