@@ -30,13 +30,12 @@ function Profile() {
       {/* Main Menu  */}
       <div className="w-[500px] bg-gradient-to-b from-[#1F7C7C] to-[#0D4444] h-screen px-10 flex flex-col justify-between">
         <div>
-          <div className="relative h-[250px]">
-            <h1 className="main-heading">
-              AICO™
-              <span className="text-[#87C8AD] text-[25px] font-bold">
-                AI-Driven <span>Career Optimizer™</span>
-              </span>
-            </h1>
+          <div className="relative h-[250px] flex flex-col items-end ">
+            <img
+              src="https://i.ibb.co/2PMNgpC/Univer.png"
+              alt=""
+              className="absolute bottom-[60px]"
+            />
           </div>
           <div>
             <div className="flex items-baseline">
@@ -109,23 +108,27 @@ function Profile() {
         })}
       </div>
       {/* content  */}
-      <div className="w-full bg-[#DEEAEF] h-screen p-10 overflow-scroll">
-        {subMenu?.map((obj: any, index: any) => {
-          return (
-            <div>
-              {obj.type === "paragraph" && <Paragraph content={obj.content} />}
-              {obj.type === "keyvalue" && <Keyvalue content={obj.content} />}
-              {obj.type === "list" && <List content={obj.content} />}
-              {obj.type === "dd" && <DD content={obj.content} />}
-              {obj.type === "nestedlist" && (
-                <NestedList content={obj.content} />
-              )}
-              {obj.type === "complexNested" && (
-                <ComplesNested content={obj.content} />
-              )}
-            </div>
-          );
-        })}
+      <div className="w-full bg-[#DEEAEF] h-screen   ">
+        <div className="right-content h-screen overflow-y-scroll p-10 mr-4">
+          {subMenu?.map((obj: any, index: any) => {
+            return (
+              <div>
+                {obj.type === "paragraph" && (
+                  <Paragraph content={obj.content} />
+                )}
+                {obj.type === "keyvalue" && <Keyvalue content={obj.content} />}
+                {obj.type === "list" && <List content={obj.content} />}
+                {obj.type === "dd" && <DD content={obj.content} />}
+                {obj.type === "nestedlist" && (
+                  <NestedList content={obj.content} />
+                )}
+                {obj.type === "complexNested" && (
+                  <ComplesNested content={obj.content} />
+                )}
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
