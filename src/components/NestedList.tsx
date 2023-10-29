@@ -18,16 +18,16 @@ function NestedList(content: Props) {
       </div>
       {content.content.data.map((obj, index) => {
         return (
-          <ul>
-            <li className="text-[#AB5F27] text-[20px] mt-4 list-decimal list-inside">
-              {obj.heading}
-            </li>
+          <div>
+            <div className="text-[#AB5F27] text-[20px] mt-4 list-decimal list-inside">
+              {index + 1}. {obj.heading}
+            </div>
             {obj.data.map((item, index) => {
               return (
                 <li className="list-disc list-inside text-base ml-6">{item}</li>
               );
             })}
-          </ul>
+          </div>
         );
       })}
     </div>

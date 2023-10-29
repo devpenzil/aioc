@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import { useHistory } from "react-router-dom";
+import { titus } from "../data/titus";
+import { jomini } from "../data/jomini";
+import { sindra } from "../data/sindra";
+import { farsana } from "../data/farsana";
+import { hyma } from "../data/hyma";
+import { gloria } from "../data/gloria";
+import { nayan } from "../data/nayan";
 import { sreelekshmi } from "../data/sreelakshmi";
 
 function Index() {
@@ -9,7 +16,35 @@ function Index() {
   const gotoProfile = () => {
     // Add Id as case and out name the jsonstringify
     switch (personID) {
-      case "12345":
+      case "KM01417410":
+        localStorage.setItem("data", JSON.stringify(titus));
+        history.replace("/profile");
+        break;
+      case "KM00795552":
+        localStorage.setItem("data", JSON.stringify(jomini));
+        history.replace("/profile");
+        break;
+      case "KM01353499":
+        localStorage.setItem("data", JSON.stringify(sindra));
+        history.replace("/profile");
+        break;
+      case "KM00457598":
+        localStorage.setItem("data", JSON.stringify(farsana));
+        history.replace("/profile");
+        break;
+      case "KM01100919":
+        localStorage.setItem("data", JSON.stringify(hyma));
+        history.replace("/profile");
+        break;
+      case "KM0268030":
+        localStorage.setItem("data", JSON.stringify(gloria));
+        history.replace("/profile");
+        break;
+      case "KM00429981":
+        localStorage.setItem("data", JSON.stringify(nayan));
+        history.replace("/profile");
+        break;
+      case "KM0427270":
         localStorage.setItem("data", JSON.stringify(sreelekshmi));
         history.replace("/profile");
         break;

@@ -1,15 +1,14 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable array-callback-return */
 import React, { useEffect, useState } from "react";
-import { sreelekshmi } from "../data/sreelakshmi";
 import Paragraph from "../components/Paragraph";
 import Keyvalue from "../components/Keyvalue";
-import { profileData } from "../types/data";
 import List from "../components/List";
 import DD from "../components/DD";
 import NestedList from "../components/NestedList";
 import { useHistory } from "react-router-dom";
 import { icons } from "../data/icons";
+import ComplesNested from "../components/ComplesNested";
 
 function Profile() {
   const history = useHistory();
@@ -41,8 +40,8 @@ function Profile() {
           </div>
           <div>
             <div className="flex items-baseline">
-              <div>Menu</div>
-              <div className="h-[0.5px] w-[180px] bg-black ml-2" />
+              <div className="text-[#AFDAC8]">Menu</div>
+              <div className="h-[0.5px] w-[180px] bg-[#AFDAC8] ml-2" />
             </div>
             {mainMenu?.map((obj: any, index: any) => {
               return (
@@ -88,6 +87,10 @@ function Profile() {
             className="-ml-[200px] z-10 absolute"
           />
         </div>
+        <div className="flex items-baseline">
+          <div className="text-[#184B2C]">Submenu</div>
+          <div className="h-[0.5px] w-[180px] bg-[#184B2C] ml-2" />
+        </div>
         {subMenu?.map((obj: any, index: any) => {
           return (
             <a key={index} href={`#${obj.content.id}`}>
@@ -116,6 +119,9 @@ function Profile() {
               {obj.type === "dd" && <DD content={obj.content} />}
               {obj.type === "nestedlist" && (
                 <NestedList content={obj.content} />
+              )}
+              {obj.type === "complexNested" && (
+                <ComplesNested content={obj.content} />
               )}
             </div>
           );

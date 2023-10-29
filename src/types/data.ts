@@ -3,7 +3,13 @@ export type profileData = {
     name: string;
     subMenu: {
       name: string;
-      type?: "paragraph" | "keyvalue" | "list" | "dd" | "nestedlist";
+      type?:
+        | "paragraph"
+        | "keyvalue"
+        | "list"
+        | "dd"
+        | "nestedlist"
+        | "complexNested";
       content?: any;
     }[];
   }[];
