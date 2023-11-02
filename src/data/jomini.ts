@@ -118,7 +118,7 @@ export const jomini: profileData = {
                     type: "list",
                     content: {
                         id: "Career_Advice",
-                        heading: "Career_Advice",
+                        heading: "Career Advice",
                         data: [
                             "Leverage Experience: Jomini has 6 years of professional experience. This experience, combined with her MBA in Human Resources, is a strong foundation. She should ensure that she's capitalizing on this when seeking new roles.",
                             "Broaden Industry Preference: While her preference leans towards the healthcare industry, given her HR background, Jomini can explore opportunities in various other sectors too. The skills from an MBA in HR are highly transferable.",

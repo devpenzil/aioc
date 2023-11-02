@@ -14,16 +14,20 @@ function Profile() {
   const history = useHistory();
   const [mainMenu, setMainMenu] = useState<any>();
   const [subMenu, setsubMenu] = useState<any>();
+  const [pdfLink, setpdfLink] = useState<any>();
+
   useEffect(() => {
     const value = localStorage.getItem("data");
     if (value !== null) {
       setMainMenu(JSON.parse(value)?.mainmenu);
       setsubMenu(JSON.parse(value)?.mainmenu[0]?.subMenu);
+      setpdfLink(JSON.parse(value)?.pdf)
     }
   }, []);
 
   const [subActive, setsubActive] = useState(0);
   const [mainActive, setmainActive] = useState(0);
+
 
   return (
     <div className="w-full h-screen  flex">
@@ -63,9 +67,13 @@ function Profile() {
           </div>
         </div>
         <div className="pb-8">
-          <div className="bg-[#AFDAC8] w-[100%] text-center p-3 rounded-md text-[#115050] cursor-pointer text-lg">
-            Download Pdf
-          </div>
+          <a href={pdfLink} download>
+          <div className="bg-[#AFDAC8] w-[100%] text-center p-3 rounded-md text-[#115050] cursor-pointer text-lg"
+         
+         >
+           Download Pdf
+         </div>
+          </a>
           <div
             className="bg-[#FFF9EC80] w-[100%] text-center p-3 rounded-md text-white cursor-pointer text-lg mt-4"
             onClick={() => {

@@ -21,7 +21,7 @@ export const nayan: profileData = {
                     },
                 },
                 {
-                    name: "Educational_and_Professional_Background",
+                    name: "Educational and Professional Background",
                     type: "list",
                     content: {
                         id: "Educational_and_Professional_Background",
@@ -177,37 +177,220 @@ export const nayan: profileData = {
         {
             name: "Career Strategy & Skill Augmentation",
             subMenu: [
-                // {
-                //     name: "Deep Specialization in HR Domains",
-                //     type: "nestedlist",
-                //     content: {
-                //         heading: "Deep Specialization in HR Domains",
-                //         data: [
-                //             {
-                //                 heading: "Strengths",
-                //                 data: [
-                //                     "Strong Academic Background: With a post-graduation in Mathematics, she possesses a solid foundation in analytical and logical skills, which are essential for many roles in the banking and finance sector.",
-                //                     "Versatility: While her primary education is in Mathematics, she also has skills in Fashion Designing, indicating a diverse skill set.",
-                //                 ],
-                //             },
-                //             {
-                //                 heading: "Strengths",
-                //                 data: [
-                //                     "Strong Academic Background: With a post-graduation in Mathematics, she possesses a solid foundation in analytical and logical skills, which are essential for many roles in the banking and finance sector.",
-                //                     "Versatility: While her primary education is in Mathematics, she also has skills in Fashion Designing, indicating a diverse skill set.",
-                //                     'Interpersonal Skills: High scores in "People smart" and "Word Smart" from the Multiple Intelligence Score indicates strong communication and interpersonal abilities.',
-                //                     "Analytical Abilities: The FACE score suggests she's methodical, analytical, and detail-oriented.",
-                //                     "Innovative Thinking: Her high score in the Concept section points towards her creativity and original thinking.",
-                //                     "Collaboration Skills: Scoring high in teamwork and collaboration indicates her potential to work well in group settings.",
-                //                 ],
-                //             },
-                //         ]
-                //     }
-                // },
-                //to here custom component
+                {
+                    name: "Career Strategy & Skill Augmentation",
+                    type: "complexNested",
+                    content: {
+                        heading: "Career Strategy & Skill Augmentation",
+                        data: [
+                            {
+                                name: "Deep Specialization in HR Domains",
+                                content: [
+                                    {
+                                        name: "Focus Area: HR Analytics and Talent Management.",
+                                    },
+                                    {
+                                        name: "Rationale: Deepening knowledge in these areas can significantly enhance decision-making capabilities and strategic input in HR roles.",
+                                    },
+                                    {
+                                        name: "Action Steps:",
+                                        content: [
+                                            {
+                                                name: "Undertake advanced certifications in HR analytics.",
+                                            },
+                                            {
+                                                name: "Participate in workshops and seminars focusing on talent management strategies.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                name: "Soft Skills Enhancement",
+                                content: [
+                                    {
+                                        name: "Focus Area: Team Collaboration and Communication Skills.",
+                                    },
+                                    {
+                                        name: "Rationale: These skills are crucial for HR roles, impacting interactions within and outside the organization.",
+                                    },
+                                    {
+                                        name: "Action Steps:",
+                                        content: [
+                                            {
+                                                name: "Engage in team-based projects or volunteer activities.",
+                                            },
+                                            {
+                                                name: "Utilize platforms like Coursera and Udemy for soft skills courses.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                name: "Expand Network",
+                                content: [
+                                    {
+                                        name: "Focus Area: Building Professional Relationships.",
+                                    },
+                                    {
+                                        name: "Rationale: Networking is pivotal for discovering unadvertised job opportunities and gaining insights into industry trends.",
+                                    },
+                                    {
+                                        name: "Action Steps:",
+                                        content: [
+                                            {
+                                                name: "Attend HR conferences and workshops.",
+                                            },
+                                            {
+                                                name: "Participate in LinkedIn groups related to HR and engage in discussions.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                name: "Embrace Technology",
+                                content: [
+                                    {
+                                        name: "Focus Area: HR Tech Tools and Digital Platforms.",
+                                    },
+                                    {
+                                        name: "Rationale: Proficiency in HR technologies is essential for modern HR roles, impacting areas like recruitment, performance management, and employee engagement.",
+                                    },
+                                    {
+                                        name: "Action Steps:",
+                                        content: [
+                                            {
+                                                name: "Learn about HRM systems like Workday and SuccessFactors.",
+                                            },
+                                            {
+                                                name: "Stay updated on emerging HR tech trends through webinars and industry reports.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                name: "Strategic Thinking and Leadership",
+                                content: [
+                                    {
+                                        name: "Focus Area: Strategy Formulation and Implementation in HR.",
+                                    },
+                                    {
+                                        name: "Rationale: Proficiency in HR technologies is essential for modern HR roles, impacting areas like recruitment, performance management, and employee engagement.",
+                                    },
+                                    {
+                                        name: "Action Steps:",
+                                        content: [
+                                            {
+                                                name: "Engage in strategy-focused professional development programs.",
+                                            },
+                                            {
+                                                name: "Seek mentorship from experienced HR leaders.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                name: "Holistic Understanding of Business",
+                                desc: " Regular follow-ups and support to track her progress and address any challenges she faces are crucial. This contributes to:",
+                                content: [
+                                    {
+                                        name: "Focus Area: Business Acumen and Cross-functional Knowledge.",
+                                    },
+                                    {
+                                        name: "Rationale: A holistic understanding of business operations and functions can aid in aligning HR practices with overall business objectives.",
+                                    },
+                                    {
+                                        name: "Action Steps:",
+                                        content: [
+                                            {
+                                                name: "Undertake courses in business management.",
+                                            },
+                                            {
+                                                name: "Engage with professionals from diverse business functions to gain insights.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                name: "Flexible Work Preferences",
+                                content: [
+                                    {
+                                        name: " Focus Area: Adaptability to Various Work Environments.",
+                                    },
+                                    {
+                                        name: "Rationale: The future of work is characterized by flexibility, and adaptability to different work arrangements is beneficial.",
+                                    },
+                                    {
+                                        name: "Action Steps:",
+                                        content: [
+                                            {
+                                                name: "Explore opportunities in remote, hybrid, and in-office work settings.",
+                                            },
+                                            {
+                                                name: "Develop skills conducive to remote work, like self-management and digital collaboration.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                name: "Focus on Employee Well-being",
+                                content: [
+                                    {
+                                        name: "Focus Area: Employee Mental Health and Well-being.",
+                                    },
+                                    {
+                                        name: "Rationale: Employee well-being is becoming a core focus area in HR, impacting organizational culture and productivity.",
+                                    },
+                                    {
+                                        name: "Action Steps:",
+                                        content: [
+                                            {
+                                                name: "Gain knowledge on mental health and well-being practices in the workplace.",
+                                            },
+                                            {
+                                                name: "Advocate for well-being initiatives within the organization.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                name: "Future Learning",
+                                content: [
+                                    {
+                                        name: "Focus Area: Continuous Learning and Development.",
+                                    },
+                                    {
+                                        name: "Rationale: Continuous learning is crucial for staying relevant in the evolving HR landscape.",
+                                    },
+                                    {
+                                        name: "Action Steps:",
+                                        content: [
+                                            {
+                                                name: "Develop a learning plan focusing on emerging HR trends and skills.",
+                                            },
+                                            {
+                                                name: "Allocate time regularly for learning and professional development.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+
+
+                        ]
+                    }
+                },
+                // to here custom component
 
                 {
-                    name: "Envisioning_Opportunities_and_Future_of_Work",
+                    name: "Envisioning Opportunities and Future of Work",
                     type: "nestedlist",
                     content: {
                         heading: "Envisioning Opportunities and Future of Work",
@@ -249,7 +432,7 @@ export const nayan: profileData = {
 
         },
         {
-            name: "Comprehensive Profile Overview",
+            name: "Counseling Insights & Key Takeaways",
             subMenu: [
                 {
                     name: "Personal Background",
@@ -369,7 +552,7 @@ export const nayan: profileData = {
                                 ],
                             },
                         ],
-                        id: "Key_Takeaways",
+                        id: "Word_Clouds",
                     },
                 },
 
@@ -521,11 +704,11 @@ export const nayan: profileData = {
                     name: "Conclusion",
                     type: "paragraph",
                     content: {
-                      id: "Conclusion",
-                      heading: "Conclusion",
-                      desc: "By implementing these recommendations, KKEM can effectively address the diverse needs and aspirations of candidates like Nayan and contribute to building a robust knowledge economy within Kerala, ensuring the holistic development and progression of the candidates.",
+                        id: "Conclusion",
+                        heading: "Conclusion",
+                        desc: "By implementing these recommendations, KKEM can effectively address the diverse needs and aspirations of candidates like Nayan and contribute to building a robust knowledge economy within Kerala, ensuring the holistic development and progression of the candidates.",
                     },
-                  },
+                },
             ]
         }
 

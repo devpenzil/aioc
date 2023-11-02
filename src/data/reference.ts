@@ -192,7 +192,30 @@ export const reference: profileData = {
                 ],
               },
               {
-                name: "Deep_Specialization_in_HR_Domains",
+                name: "Deep Specialization in HR Domains",
+                content: [
+                  {
+                    name: "Focus Area: HR Analytics and Talent Management.",
+                  },
+                  {
+                    name: "Rationale: Deepening knowledge in these areas can significantly enhance decision-making capabilities and strategic input in HR roles.",
+                  },
+                  {
+                    name: "Action Steps:",
+                    content: [
+                      {
+                        name: "Undertake advanced certifications in HR analytics.",
+                      },
+                      {
+                        name: "Participate in workshops and seminars focusing on talent management strategies.",
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                
+                name: "Deep Specialization in HR Domains",
                 content: [
                   {
                     name: "Focus Area: HR Analytics and Talent Management.",

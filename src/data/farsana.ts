@@ -29,6 +29,7 @@ export const farsana: profileData = {
                     },
                 },
                 //SWOT analaysis need new component
+
             ]
         }
 

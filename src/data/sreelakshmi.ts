@@ -317,7 +317,7 @@ export const sreelekshmi: profileData = {
       name: "Career Strategy & Skill Augmentation",
       subMenu: [
         {
-          name: "Career_Pathways_and_Opportunities",
+          name: "Career Pathways and Opportunities",
           type: "list",
           content: {
             id: "Career_Pathways_and_Opportunities",
@@ -331,7 +331,7 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Skill_Development_and_Enhancement",
+          name: "Skill Development and Enhancement",
           type: "list",
           content: {
             id: "Skill_Development_and_Enhancement",
@@ -346,10 +346,10 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Training_and_Certifications",
+          name: "Trainin and Certifications",
           type: "list",
           content: {
-            id: "Training_and_Certifications",
+            id: "Training and Certifications",
             heading: "Training and Certifications",
             data: [
               "Specialized Courses: Opt for specialized courses in her areas of interest like GST account assistance and international banking and finance.",
@@ -360,7 +360,7 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Strategic_Job_Search",
+          name: "Strategic Job Search",
           type: "list",
           content: {
             id: "Strategic_Job_Search",
@@ -374,10 +374,10 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Work_Life_Balance_and_Adaptability",
+          name: "Work Life Balance and Adaptability",
           type: "list",
           content: {
-            id: "Work_Life_Balance_and_Adaptability",
+            id: "Work Life Balance and Adaptability",
             heading: "Work Life Balance and Adaptability",
             data: [
               "Remote Work Opportunities: Explore opportunities to work from home or part-time roles to balance personal commitments.",
@@ -387,7 +387,7 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Future_of_Work_Considerations",
+          name: "Future of Work Considerations",
           type: "list",
           content: {
             id: "Future_of_Work_Considerations",
@@ -400,7 +400,7 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Actionable_Steps",
+          name: "Actionable Steps",
           type: "list",
           content: {
             id: "Actionable_Steps",
@@ -444,7 +444,7 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Candidate_Background",
+          name: "Candidate Background",
           type: "paragraph",
           content: {
             heading: "Candidate Background",
@@ -453,7 +453,7 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Career_Aspirations_and_Preferences",
+          name: "Career Aspirations and Preferences",
           type: "paragraph",
           content: {
             id: "Career Aspirations and Preferenceset",
@@ -471,7 +471,7 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Job_Search_and_Application_Strategies",
+          name: "Job Search and Application Strategies",
           type: "paragraph",
           content: {
             id: " Job_Search_and_Application_Strategies",
@@ -480,7 +480,7 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Interview_Preparation",
+          name: "Interview Preparation",
           type: "paragraph",
           content: {
             id: "Interview_Preparation",
@@ -489,7 +489,7 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Counsellor’s_Recommendations",
+          name: "Counsellor’s Recommendations",
           type: "paragraph",
           content: {
             id: " Counsellor’s_Recommendations",
@@ -498,7 +498,7 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Candidate’s_Reflection",
+          name: "Candidate’s Reflection",
           type: "paragraph",
           content: {
             id: " Candidate’s_Reflection",
@@ -507,10 +507,10 @@ export const sreelekshmi: profileData = {
           },
         },
         {
-          name: "Insights_and_Conclusions",
+          name: "Insights and Conclusions",
           type: "paragraph",
           content: {
-            id: "Insights_and_Conclusions",
+            id: "Insights and Conclusions",
             heading: " Insights and Conclusions",
             desc: "Sreelakshmi’s career counselling session provided a detailed insight into her aspirations, preferences, and considerations. The comprehensive discussion and recommendations have paved the way for a refined approach to her professional development and job search, aligning her skills, qualifications, and interests with her career goals. The insights gained from this session will be crucial in guiding Sreelakshmi through her career journey and aiding KKEM in facilitating diverse aspirants effectively in their pursuit of contributing to the knowledge economy of the state.",
           },
@@ -651,4 +651,5 @@ export const sreelekshmi: profileData = {
       ],
     },
   ],
+  pdf:'/pdf/Inclusys_Profile_Template.pdf'
 };

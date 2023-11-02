@@ -4,13 +4,14 @@ export type profileData = {
     subMenu: {
       name: string;
       type?:
-        | "paragraph"
-        | "keyvalue"
-        | "list"
-        | "dd"
-        | "nestedlist"
-        | "complexNested";
+      | "paragraph"
+      | "keyvalue"
+      | "list"
+      | "dd"
+      | "nestedlist"
+      | "complexNested";
       content?: any;
     }[];
   }[];
+  pdf?:any;
 };

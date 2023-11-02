@@ -53,7 +53,7 @@ export const hyma: profileData = {
                     type: "list",
                     content: {
                         id: " Training_and_Development_Needs",
-                        heading: " Training_and_Development_Needs",
+                        heading: " Training and Development Needs",
                         data: [
                             "Soft Skills: Goal Setting and Network Building"
                         ]
@@ -72,10 +72,10 @@ export const hyma: profileData = {
 
 
                 {
-                    name: "Recommendations_and_Suggestions",
+                    name: "Recommendations and Suggestions",
                     type: "dd",
                     content: {
-                        heading: "Recommendations_and_Suggestions",
+                        heading: "Recommendations and Suggestions",
                         data: [
                             {
                                 heading: "Career Development:",
@@ -119,7 +119,7 @@ export const hyma: profileData = {
                     name: "Career Advice",
                     type: "dd",
                     content: {
-                        heading: "Career_Advice",
+                        heading: "Career Advice",
                         data: [
                             {
                                 heading: "Career Exploration:",
@@ -200,10 +200,10 @@ export const hyma: profileData = {
             name: "Candidate-Centric Insights & Suggestions for KKEM",
             subMenu: [
                 {
-                    name: "Recommendations_and_Insights_for_KKEM",
+                    name: "Recommendations and Insights for KKEM",
                     type: "dd",
                     content: {
-                        heading: "Recommendations_and_Insights_for_KKEM",
+                        heading: "Recommendations and Insights for KKEM",
                         data: [
                             {
                                 heading: "Personalized Skill Development Programs:",

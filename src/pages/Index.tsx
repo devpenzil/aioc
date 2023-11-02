@@ -9,6 +9,7 @@ import { hyma } from "../data/hyma";
 import { gloria } from "../data/gloria";
 import { nayan } from "../data/nayan";
 import { sreelekshmi } from "../data/sreelakshmi";
+import { reference } from "../data/reference";
 
 function Index() {
   const [personID, setpersonID] = useState<string>();
@@ -46,6 +47,10 @@ function Index() {
         break;
       case "KM0427270":
         localStorage.setItem("data", JSON.stringify(sreelekshmi));
+        history.replace("/profile");
+        break;
+      case "000":
+        localStorage.setItem("data", JSON.stringify(reference));
         history.replace("/profile");
         break;
       default:

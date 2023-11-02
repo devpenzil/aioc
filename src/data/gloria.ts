@@ -306,49 +306,122 @@ export const gloria: profileData = {
                 },
             ]
         },
-        //need a new component
         {
             name: "Recommendations and Insights for KKEM",
             subMenu: [
                 {
                     name: "Recommendations and Insights for KKEM",
-                    type: "dd",
+                    type: "complexNested",
                     content: {
-                        heading: "Recommendations_and_Insights_for_KKEM",
+                        heading: "Recommendations and Insights for KKEM",
                         data: [
                             {
-                                heading: "Strengths",
-                                data: [
-                                    "Diversified Skill Set: Having experience in both software and civil engineering allows her to explore roles in diverse domains.",
-                                    "Willingness to Learn: Openness to undergoing training and learning new skills makes her adaptable to different roles and responsibilities.",
-                                    "Logical Thinking:Strong logical thinking ability can aid in problem-solving and analytical tasks.",
-                                    "Introverted Nature: Her preference for less interaction can be a strength in roles requiring deep focus and individual contribution",
+                                name: "Skill Enhancement and Training programs",
+                                desc: "Given Gloria’s varied interests and experience, KKEM can offer tailored training programs in software development, civil engineering design tools, and animal care. This will help in:",
+                                content: [
+                                    {
+                                        name: "Broadening Her Skill Set: By learning diverse skills, Gloria can be more versatile in her career options.",
+                                    },
+                                    {
+                                        name: "Enhancing Employability: Diverse skills make her a valuable asset to various industries, thus increasing her chances of employment.",
+                                    },
+                                    // {
+                                    //     name: "Action Steps:",
+                                    //     content: [
+                                    //         {
+                                    //             name: "Undertake advanced certifications in HR analytics.",
+                                    //         },
+                                    //         {
+                                    //             name: "Participate in workshops and seminars focusing on talent management strategies.",
+                                    //         },
+                                    //     ],
+                                    // },
                                 ],
                             },
                             {
-                                heading: "Weakness",
-                                data: [
-                                    "Lack of Clear Career Direction: The absence of a clear passion or preference in her field of study may lead to challenges in finding a fulfilling career path.",
-                                    "Need for Training in IT: Even though open to IT-related work, she might need training in software development as her previous role did not involve software development tasks.",
-                                    "Lack of Systematic Planning:Her admission to not being very organized and not planning much can be a drawback in roles requiring meticulous planning and organization."
+                                name: "Personalized Career Counseling",
+                                desc: " Given her uncertainty about her interests and career path, providing personalized career counseling sessions can help Gloria in:",
+                                content: [
+                                    {
+                                        name: "Clarifying Her Career Path: Understanding her strengths, interests, and values better can help in choosing the right career path.",
+                                    },
+                                    {
+                                        name: "Identifying Suitable Roles: Counseling can help in identifying roles that align with her skills and interests, avoiding unsuitable ones.",
+                                    },
                                 ],
                             },
                             {
-                                heading: "Opportunities",
-                                data: [
-                                    "Exploration of Niche Fields: Given her interest in animal care, there are opportunities to explore roles in niche fields like pet grooming and animal welfare.",
-                                    "Interdisciplinary Roles: Her varied interests and experiences open doors to interdisciplinary roles, leveraging her diverse skill set.",
-                                    "Enhanced Skills through Training: By undergoing training in areas like IT and animal care, she can broaden her skill set and enhance her employability."
+                                name: "Inclusive Employment Opportunities",
+                                desc: " As Gloria is differently-abled, KKEM should actively collaborate with companies and organizations to create an inclusive work environment and encourage them to offer roles suitable for her condition. This ensures:",
+                                content: [
+                                    {
+                                        name: "Equal Opportunity: Ensures that Gloria has equal access to opportunities.",
+                                    },
+                                    {
+                                        name: "Diverse Work Environment: Promotes diversity and inclusion within the workplace.",
+                                    },
                                 ],
                             },
                             {
-                                heading: "Threats",
-                                data: [
-                                    "Market Competition: Given her varied interests and lack of specialization, she might face stiff competition from specialists in respective fields.",
-                                    "Uncertain Interest Alignment: The uncertainty and lack of clarity in her career interests might lead to challenges in aligning with roles that suit her best.",
-                                    "Potential for Unfulfilling Roles: Without clear career direction and passion, there is a risk of ending up in roles that may not be fulfilling or aligned with her intrinsic interests.",
+                                name: "Soft Skills Development Programs",
+                                desc: "Soft skill development, particularly in areas like systematic planning, organizational skills, and interpersonal communication, can be beneficial. This aids in:",
+                                content: [
+                                    {
+                                        name: "Enhanced Productivity: Improved organizational skills can lead to better task management.",
+                                    },
+                                    {
+                                        name: "Better Interpersonal Relationships: Enhanced communication skills can improve her interactions at the workplace.",
+                                    },
                                 ],
-                            }
+                            },
+                            {
+                                name: "Exposure to Niche Fields",
+                                desc: "Encourage exploration in niche fields like animal care, pet grooming, and agriculture. This will:",
+                                content: [
+                                    {
+                                        name: "Broaden Career Horizons: Exploration of unconventional paths can lead to the discovery of fulfilling career options.",
+                                    },
+                                    {
+                                        name: "Meet Market Demand: Niche fields often have untapped potential and can offer unique opportunities.",
+                                    },
+                                ],
+                            },
+                            {
+                                name: "Continuous Monitoring and Support",
+                                desc: " Regular follow-ups and support to track her progress and address any challenges she faces are crucial. This contributes to:",
+                                content: [
+                                    {
+                                        name: "Addressing Challenges Promptly: Immediate resolution of any issues faced ensures smooth career progression.",
+                                    },
+                                    {
+                                        name: "Building Confidence: Regular support and guidance build confidence and motivate individuals to pursue their goals actively.",
+                                    },
+                                ],
+                            },
+                            {
+                                name: "Flexibility in Role Assignment",
+                                desc: " Considering her varied interests, offering roles with flexibility or roles that encompass multiple skills and domains can be beneficial. This results in:",
+                                content: [
+                                    {
+                                        name: " Job Satisfaction: A role aligning with her interests can lead to higher job satisfaction and better performance.",
+                                    },
+                                    {
+                                        name: "Enhanced Productivity: Flexibility in roles can lead to a more engaged and productive work approach.",
+                                    },
+                                ],
+                            },
+                            {
+                                name: "Encourage Community Engagement",
+                                desc: "Encouraging Gloria to engage with communities and forums related to her interests can provide her exposure and networking opportunities. This facilitates:",
+                                content: [
+                                    {
+                                        name: "Networking Opportunities: Engaging with like-minded individuals can open doors to new opportunities and collaborations.",
+                                    },
+                                    {
+                                        name: "Knowledge Sharing: Community interactions can lead to knowledge exchange, providing insights into industry trends and best practices.",
+                                    },
+                                ],
+                            },
 
                         ]
                     }

@@ -4,6 +4,7 @@ interface Props {
   content: {
     heading: string;
     data: {
+      heading?: string;
       name: string;
       desc?: string;
       content?: {
@@ -28,6 +29,7 @@ function ComplesNested(content: Props) {
         {content?.content?.data.map((obj, index) => {
           return (
             <div>
+              <div className="text-[#AB5F27] text-[20px] mb-4">{obj?.heading} </div>
               <div>
                 {index + 1}. {obj?.name}
               </div>
