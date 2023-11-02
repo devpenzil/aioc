@@ -457,7 +457,7 @@ export const sreelekshmi: profileData = {
           type: "paragraph",
           content: {
             id: "Career Aspirations and Preferenceset",
-            heading: "Career_Aspirations_and_Preferences",
+            heading: "Career Aspirations and Preferences",
             desc: "Sreelakshmi expressed a keen interest in the finance and banking sectors, with teaching as a secondary preference. Her interest is situated within her locality due to her reluctance to relocate, and she is open to office work as her first choice.",
           },
         },
@@ -466,7 +466,7 @@ export const sreelekshmi: profileData = {
           type: "paragraph",
           content: {
             id: "Professional Development and Learning",
-            heading: "Professional_Development_and_Learning",
+            heading: "Professional Development and Learning",
             desc: "Sreelakshmi is considering various courses in banking and finance to enhance her skills and qualifications, focusing on the alignment with her career interests and the financial and temporal implications of the courses. She is particularly interested in the GST account assistance course and diploma in international banking and finance, with a willingness to consider both government and private courses.",
           },
         },
