@@ -651,5 +651,5 @@ export const sreelekshmi: profileData = {
       ],
     },
   ],
-  pdf:'/pdf/Inclusys_Profile_Template.pdf'
+  pdf:'/pdf/KM0427270 - Sreelakshmi Sreejith.pdf'
 };

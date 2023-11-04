@@ -40,7 +40,7 @@ export const farsana: profileData = {
                     name: "Career Advice",
                     type: "dd",
                     content: {
-                        heading: "Carrer Advice",
+                        heading: "Career Advice",
                         data: [
                             {
                                 heading: "Career Exploration:",
@@ -185,5 +185,7 @@ export const farsana: profileData = {
 
             ]
         }
-    ]
+    ],
+    pdf: '/pdf/KM00457598 - Shirin Farsana Beevi.pdf'
+
 }

@@ -712,5 +712,6 @@ export const nayan: profileData = {
             ]
         }
 
-    ]
+    ],
+    pdf: '/pdf/KM00429981 - Nayan Reshmi.pdf'
 }

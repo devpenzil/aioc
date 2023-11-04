@@ -211,7 +211,7 @@ export const hyma: profileData = {
                                     "Customized Training Modules: Develop personalized training and development modules focusing on Hyma's identified areas of need such as Goal Setting and Network Building.",
                                     "Soft Skills Enhancement: Organize workshops and seminars on enhancing soft skills like effective communication and interpersonal skills, crucial for roles in psychiatry and social work.",
                                     "Advanced Technical Training: Offer advanced technical training sessions in emerging technologies and tools prevalent in the medical and psychiatric fields.",
-                                    
+
                                 ],
                             },
                             {
@@ -220,7 +220,7 @@ export const hyma: profileData = {
                                     "Specialized Counseling Sessions: Arrange specialized career counseling sessions to help Hyma explore diverse roles within her preferred industries and align her career progression strategically.",
                                     "Industry Expert Interactions: Facilitate interactions with industry experts from the fields of healthcare, education, biotechnology, and pharmaceutical to provide insights into the industry trends and expectations.",
                                     "Mentorship Program: Assign a mentor to guide her through her career decisions, provide insights, and assist in her professional development.",
-                                    
+
                                 ],
                             },
                             {
@@ -237,21 +237,21 @@ export const hyma: profileData = {
                                     "Access to Online Learning Platforms: Provide access to online learning platforms offering courses and certifications in emerging areas within medical sciences and psychiatry.",
                                     "Research Opportunities: Encourage and support her participation in research activities and contributions to publications in her field of specialization.",
                                     "Learning and Development Workshops:Organize workshops focusing on continuous learning and development in her areas of interest and identified areas of support.",
-                                    
+
                                 ],
                             },
                             {
                                 heading: "Support for Innovative Ideas:",
                                 data: [
                                     "Idea Incubation: Provide a platform for Hyma to present and incubate her innovative ideas, especially those that challenge conventions and offer new perspectives.",
-                                    "Innovation Workshops: Arrange workshops focusing on stimulating innovative thinking and creativity, allowing her to develop and refine her ideas.",                                    
+                                    "Innovation Workshops: Arrange workshops focusing on stimulating innovative thinking and creativity, allowing her to develop and refine her ideas.",
                                 ],
                             },
                             {
                                 heading: "Holistic Development:",
                                 data: [
                                     "Holistic Development Programs: Introduce programs focusing on the holistic development of the candidate, covering aspects like mental well-being, physical health, and emotional intelligence.",
-                                    "Well-being Workshops: Conduct workshops on mental health and well-being, given her background in psychiatry and the importance of mental health in her preferred roles.",                                    
+                                    "Well-being Workshops: Conduct workshops on mental health and well-being, given her background in psychiatry and the importance of mental health in her preferred roles.",
                                 ],
                             },
                         ]
@@ -259,8 +259,7 @@ export const hyma: profileData = {
                 }
             ]
         }
+    ],
+    pdf: '/pdf/KM01100919 - Hyma R S.pdf'
 
-
-
-    ]
 }

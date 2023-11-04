@@ -452,5 +452,6 @@ export const gloria: profileData = {
                 },
             ]
         }
-    ]
+    ],
+    pdf:'/pdf/KM0268030 - Gloria Thomas.pdf'
 }

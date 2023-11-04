@@ -165,5 +165,6 @@ export const titus: profileData = {
                 },
             ]
         }
-    ]
+    ],
+    pdf: '/pdf/KM01417410 - Titus Polpas.pdf'
 }
