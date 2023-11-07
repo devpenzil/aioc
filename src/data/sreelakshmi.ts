@@ -91,7 +91,8 @@ export const sreelekshmi: profileData = {
             desc: "She has been proactive in applying to various positions, primarily focusing on office jobs in her locality. However, the absence of responses has led to a reconsideration of her approach, including the pursuit of additional qualifications and a revised job application strategy.",
             id: "Job_Search_and_Application_Strategies",
           },
-        }, {
+        },
+        {
           name: "Career Vision",
           type: "paragraph",
           content: {
@@ -99,7 +100,8 @@ export const sreelekshmi: profileData = {
             desc: " Sreelakshmi has a clear inclination towards banking and finance and is also open to teaching roles. Her career vision seems to be in the nascent stages, and more clarity can be achieved with further counseling and exploration.",
             id: "Career_Vision",
           },
-        }, {
+        },
+        {
           name: "Current Job Market Understanding",
           type: "paragraph",
           content: {
@@ -180,7 +182,8 @@ export const sreelekshmi: profileData = {
             desc: "She is actively trying to solve her career conundrum by exploring different job platforms and is analyzing her options, reflecting her problem-solving and analytical capabilities.",
             id: "Problem_Solving_and_Analytical_Skill",
           },
-        }, {
+        },
+        {
           name: "Inherent Drive",
           type: "paragraph",
           content: {
@@ -188,7 +191,8 @@ export const sreelekshmi: profileData = {
             desc: "Leadership and drive were not explicitly discussed, but her proactive approach in job applications and learning new skills indicates an inherent drive to move forward.",
             id: "Inherent_Drive",
           },
-        }, {
+        },
+        {
           name: "Attention to Detail",
           type: "paragraph",
           content: {
@@ -196,7 +200,8 @@ export const sreelekshmi: profileData = {
             desc: " Her careful consideration of job locations and course details implies a certain level of attention to detail.",
             id: "Attention_to_Detail",
           },
-        }, {
+        },
+        {
           name: "Self awareness and Reflection",
           type: "paragraph",
           content: {
@@ -204,7 +209,6 @@ export const sreelekshmi: profileData = {
             desc: " Sreelakshmi is aware of her career preferences, learning needs, and limitations, demonstrating a high level of self-awareness and reflection.",
             id: "Self_awareness_and_Reflection",
           },
-
         },
         {
           name: "Practical Skills",
@@ -285,7 +289,7 @@ export const sreelekshmi: profileData = {
                   "Education Sector: With her educational background and interest in teaching, she has opportunities in the education sector, particularly as a Mathematics teacher or tutor.",
                   "Banking and Finance Sector: With further training, she can explore roles in the banking and finance sector, especially analytical roles.",
                   "Networking: She can attend workshops, seminars, and training programs to build a strong professional network, enhancing her job prospects.",
-                  "Soft Skills Training: Engaging in training programs for communication, confidence building, and interview preparation can significantly enhance her employability."
+                  "Soft Skills Training: Engaging in training programs for communication, confidence building, and interview preparation can significantly enhance her employability.",
                 ],
               },
               {
@@ -296,7 +300,7 @@ export const sreelekshmi: profileData = {
                   " Geographical Limitation: Her preference to work in Kodungallur might limit the number of available opportunities, especially if she's looking for roles in niche sectors.",
                   " Gap in Education and Career Aspiration: While she has a PG in Mathematics, she's aspiring for roles in the banking and finance sector, which might require specific industry-related skills and knowledge.",
                 ],
-              }
+              },
             ],
             id: "nestedlist",
           },
@@ -310,7 +314,6 @@ export const sreelekshmi: profileData = {
             id: "Summary",
           },
         },
-
       ],
     },
     {
@@ -326,7 +329,7 @@ export const sreelekshmi: profileData = {
               "Banking and Finance: - Role: Financial Manager - Training and Development: Given her interest in banking and finance, she should consider specialized courses in financial management, accounting, and risk management. - Skill Enhancement: Focus on analytical skills, attention to detail, and mathematical proficiency.",
               "Education and Tutoring: - Role: Mathematics Tutor/Instructor - Training and Development: Explore certifications in teaching methodologies, e-learning tools, and instructional design to bolster her teaching capabilities. - Skill Enhancement: Develop strong communication and interpersonal skills to interact effectively with students.",
               "Content Writing/Editing: - Role: Content Writer/Editor - Training and Development: Take courses in content writing, editing, and digital marketing. - Skill Enhancement: Develop strong research skills and enhance language proficiency.",
-              "Administration & Business Management: - Role: Administrative Manager - Training and Development: Consider courses in business administration, operations management, and human resources. - Skill Enhancement: Develop organizational and leadership skills."
+              "Administration & Business Management: - Role: Administrative Manager - Training and Development: Consider courses in business administration, operations management, and human resources. - Skill Enhancement: Develop organizational and leadership skills.",
             ],
           },
         },
@@ -341,7 +344,7 @@ export const sreelekshmi: profileData = {
               "Confidence Building: Engage in activities and workshops that boost self-confidence and assertiveness.",
               "Practical Skills: Develop hands-on & practical skills relevant to her preferred role, such as accounting software for finance roles.",
               "Analytical Skills: Strengthen problem-solving & analytical skills through targeted learning and practice, crucial for roles in finance and administration.",
-              "Networking: Develop a strong professional network, leverage platforms like LinkedIn, and attend industry events and workshops."
+              "Networking: Develop a strong professional network, leverage platforms like LinkedIn, and attend industry events and workshops.",
             ],
           },
         },
@@ -355,7 +358,7 @@ export const sreelekshmi: profileData = {
               "Specialized Courses: Opt for specialized courses in her areas of interest like GST account assistance and international banking and finance.",
               " Certifications: Acquire relevant certifications in teaching, financial management, and content writing.",
               " Online Learning: Utilize online learning platforms for continuous learning and skill enhancement.",
-              " Government-Aided Programs: Explore any available government financial aid programs or scholarships for pursuing courses."
+              " Government-Aided Programs: Explore any available government financial aid programs or scholarships for pursuing courses.",
             ],
           },
         },
@@ -382,7 +385,7 @@ export const sreelekshmi: profileData = {
             data: [
               "Remote Work Opportunities: Explore opportunities to work from home or part-time roles to balance personal commitments.",
               "Flexibility: Be open to exploring different roles and industries, and be adaptable to different working environments and job requirements.",
-              "Time Management: Efficiently manage time between professional commitments and personal responsibilities."
+              "Time Management: Efficiently manage time between professional commitments and personal responsibilities.",
             ],
           },
         },
@@ -396,7 +399,7 @@ export const sreelekshmi: profileData = {
               "Embracing_Technology: Adapt to technological advancements and digital transformations in the workplace.",
               "Continuous_Learning: Stay abreast of industry trends and emerging skills in the job market.",
               "Sustainability: Consider roles and industries focusing on sustainable practices and contributing to environmental conservation.",
-            ]
+            ],
           },
         },
         {
@@ -411,7 +414,7 @@ export const sreelekshmi: profileData = {
               "Explore Teaching Opportunities: Given her academic background in Mathematics, exploring teaching opportunities can be a viable career option.",
               "Active Job Search: Apply to diverse roles and be proactive in following up on applications and preparing for interviews.",
               "Networking and Professional Development: Actively participate in networking events and professional development workshops in her preferred sectors.",
-            ]
+            ],
           },
         },
         {
@@ -523,7 +526,8 @@ export const sreelekshmi: profileData = {
             id: "Word_Cloud_Insights",
             data: [
               {
-                heading: "The word cloud for Sreelakshmi’s interview would predominantly feature terms like:",
+                heading:
+                  "The word cloud for Sreelakshmi’s interview would predominantly feature terms like:",
                 data: [
                   "Banking and Finance: These terms were frequently mentioned, reflecting her primary interest and career aspiration.",
                   "Courses and Learning: These words were a significant part of the conversation, underlining her willingness to acquire additional qualifications to improve her employability.",
@@ -533,8 +537,8 @@ export const sreelekshmi: profileData = {
                   "KKEM and Platforms: These terms were often mentioned in the context of her job search, depicting her usage of various platforms for job applications.",
                 ],
               },
-            ]
-          }
+            ],
+          },
         },
         {
           name: "Key Takeaways",
@@ -546,7 +550,7 @@ export const sreelekshmi: profileData = {
                 heading: "Enhanced Qualifications",
                 data: [
                   "Sreelakshmi should consider enrolling in the discussed courses to augment her qualifications and skills in her areas of interest.",
-                  "Exploring both private and government courses will open more doors and provide diverse learning opportunities."
+                  "Exploring both private and government courses will open more doors and provide diverse learning opportunities.",
                 ],
               },
               {
@@ -560,7 +564,7 @@ export const sreelekshmi: profileData = {
                 heading: "Preparation and Research",
                 data: [
                   " Detailed research about organizations and comprehensive preparation for interviews, focusing on self-introduction and role-specific questions, are vital.",
-                  "Utilizing available resources, like YouTube tutorials and networking, can provide valuable insights and support in her preparation."
+                  "Utilizing available resources, like YouTube tutorials and networking, can provide valuable insights and support in her preparation.",
                 ],
               },
               {
@@ -593,63 +597,132 @@ export const sreelekshmi: profileData = {
       subMenu: [
         {
           name: "Recommendations and Insights for KKEM",
-          type: "nestedlist",
+          type: "complexNested",
           content: {
-            id: "Recommendations_and_Insights_for_KKEM",
             heading: "Recommendations and Insights for KKEM",
             data: [
               {
-                heading: "Personalized Career Counselling",
-                data: [
-                  "Given Sreelakshmi's diverse interests and specific preferences, a personalized counseling session can provide clarity and direction, aligning her aspirations, skillset, and available opportunities effectively."],
-              },
-              {
-                heading: "Skill Development Workshops",
-                data: [
-                  "Organizing targeted workshops focusing on her areas of interest like finance, banking, and teaching can enhance her skills and make her industry-ready, especially addressing the identified areas of improvement in soft skills."
+                name: "Personalized Career Counseling:",
+                desc: "Insights: Sreelakshmi appears unsure about potential career paths post her PG in Mathematics. This indicates a need for more personalized counseling based on the candidate's educational background and personal circumstances.",
+                listHead: "Suggestions",
+                content: [
+                  {
+                    name: " Introduce Specialized Counseling: Organize sessions with professionals from specific fields (like finance, teaching, etc.) to provide more in-depth guidance.",
+                  },
+                  {
+                    name: "Promote Awareness: Use webinars, workshops, and informational sessions to educate candidates about diverse career paths for their qualifications.",
+                  },
                 ],
               },
               {
-                heading: "Financial Aid and Scholarship Information",
-                data: [
-                  "Providing detailed information regarding available financial aids, scholarships, and free courses can guide her in making informed decisions regarding her professional development."
+                name: "Bridging the Gap in Employment:",
+                desc: " Insights: Sreelakshmi has a considerable gap in her employment history, which may be a concern for potential employers.",
+                listHead: "Suggestions",
+                content: [
+                  {
+                    name: "Skill Enhancement: Recommend short-term courses to candidates that not only align with their interests but also help bridge employment gaps.",
+                  },
+                  {
+                    name: " Real-world Projects: Offer opportunities for candidates to work on real-world projects, perhaps in collaboration with local businesses, to build their portfolios.",
+                  },
                 ],
               },
               {
-                heading: "Enhanced Guidance for Job Applications",
-                data: [
-                  "Guidance on effective job application strategies, including revising and updating CVs and exploring various job platforms, can augment her chances of receiving responses and interview calls."
+                name: "Accessibility to Courses:",
+                desc: " Insights: Financial constraints can be a hurdle for candidates like Sreelakshmi when considering skill enhancement courses.",
+                listHead: "Suggestions",
+                content: [
+                  {
+                    name: "Scholarships: Introduce scholarships based on merit and need to make courses more accessible.",
+                  },
+                  {
+                    name: "Collaborate: Partner with educational institutions to offer discounted courses or training programs to registered candidates.",
+                  },
                 ],
               },
               {
-                heading: "Internship Opportunities",
-                data: [
-                  "Creating opportunities for practical experience in her areas of interest can provide her with insights into the industry and enhance her employability."
+                name: "Job Search Platforms and Methods:",
+                desc: "Insights: Sreelakshmi has been searching for jobs primarily in her locality and through specific platforms.",
+                listHead: "Suggestions",
+                content: [
+                  {
+                    name: "Expand Job Search: Educate candidates about various job search platforms, both national and international.",
+                  },
+                  {
+                    name: "Networking: Encourage candidates to network, attend job fairs, and leverage platforms like LinkedIn for better opportunities.",
+                  },
                 ],
               },
               {
-                heading: "Mentorship Program",
-                data: [
-                  "Connecting her with experienced professionals in her field of interest can provide her with valuable insights, guidance, and support in her career journey."
+                name: "Soft Skills and Interview Preparation:",
+                desc: "Insights: Sreelakshmi seems unprepared for interviews, indicating a potential gap in soft skills training.",
+                listHead: "Suggestions",
+                content: [
+                  {
+                    name: "Soft Skills Training: Organize workshops focusing on interview preparation, communication skills, and CV writing.",
+                  },
+                  {
+                    name: "Mock Interviews: Conduct mock interview sessions to give candidates a feel of real interviews and provide feedback.",
+                  },
                 ],
               },
               {
-                heading: "Networking Opportunities",
-                data: [
-                  "Facilitating networking events can help her build connections in her industry of interest, opening up opportunities and providing insights into industry trends and demands."
+                name: "Remote Working Opportunities:",
+                desc: "Insights: Sreelakshmi has shown interest in work-from-home opportunities, highlighting the growing trend of remote jobs.",
+                listHead: "Suggestions",
+                content: [
+                  {
+                    name: "Promote Remote Jobs: Educate candidates about platforms that offer remote job opportunities.",
+                  },
+                  {
+                    name: "Tech Skills Training: Offer training in tools and platforms commonly used in remote jobs to make candidates more employable.",
+                  },
                 ],
               },
               {
-                heading: "Awareness and Information",
-                data: [
-                  "Keeping her informed about the various opportunities, courses, and industry trends can aid her in navigating her career path effectively."
+                name: "Feedback Loop:",
+                desc: "Insights: The test taken during KKEM registration might not always reflect a candidate's true potential if not taken seriously.",
+                listHead: "Suggestions",
+                content: [
+                  {
+                    name: "Re-emphasize Importance: Make candidates aware of the importance of such tests and how they can impact their job opportunities.",
+                  },
+                  {
+                    name: " Regular Feedback: Establish a feedback loop where candidates can revisit and discuss their test results, ensuring they understand their strengths and areas for improvement.",
+                  },
                 ],
               },
-            ]
+              {
+                name: "Local Job Opportunities:",
+                desc: "Insights: Sreelakshmi prefers jobs in her locality, indicating a need for more localized job opportunities.",
+                listHead: "Suggestions",
+                content: [
+                  {
+                    name: "Local Job Fairs: Organize job fairs or networking events in various localities to cater to candidates like Sreelakshmi.",
+                  },
+                  {
+                    name: "Collaborate with Local Businesses: Partner with local businesses to create job opportunities and internships for candidates in their local areas.",
+                  },
+                ],
+              },
+              {
+                name: "Holistic Personal and Professional Growth:",
+                desc: "Insight: Her decision to focus more on job opportunities this year due to a situation at home highlights the interplay between personal circumstances and professional aspirations.",
+                listHead: "Suggestions",
+                content: [
+                  {
+                    name: "Soft Skills and Emotional Intelligence: Offer training sessions on soft skills, emotional intelligence, and stress management. These will be crucial in a future where adaptability and emotional resilience are highly valued.",
+                  },
+                  {
+                    name: "Financial Literacy: Given her interest in finance and the economic aspects of Society 5.0, workshops on financial literacy, investment, and economic trends could be beneficial.",
+                  },
+                ],
+              },
+            ],
           },
         },
       ],
     },
   ],
-  pdf:'/pdf/KM0427270 - Sreelakshmi Sreejith.pdf'
+  pdf: "/pdf/KM0427270 - Sreelakshmi Sreejith.pdf",
 };

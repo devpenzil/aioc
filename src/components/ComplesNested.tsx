@@ -7,6 +7,7 @@ interface Props {
       heading?: string;
       name: string;
       desc?: string;
+      listHead?: string;
       content?: {
         name: string;
         desc?: string;
@@ -21,19 +22,25 @@ interface Props {
 }
 function ComplesNested(content: Props) {
   return (
-    <div className="bg-white my-8 p-8 rounded-2xl" id={`${content.content.id}`}>
+    <div
+      className="bg-white my-8 p-8 rounded-2xl"
+      id={`${content?.content?.id}`}
+    >
       <div className="text-[#AB5F27] text-[25px] mb-4">
-        {content.content.heading}
+        {content?.content?.heading}
       </div>
       <div>
-        {content?.content?.data.map((obj, index) => {
+        {content?.content?.data?.map((obj, index) => {
           return (
             <div>
-              <div className="text-[#AB5F27] text-[20px] mb-4">{obj?.heading} </div>
+              <div className="text-[#AB5F27] text-[20px] mb-4">
+                {obj?.heading}{" "}
+              </div>
               <div>
                 {index + 1}. {obj?.name}
               </div>
               <div>{obj?.desc}</div>
+              <div>{obj?.listHead} :</div>
               {obj?.content?.map((item, index) => {
                 return (
                   <>
